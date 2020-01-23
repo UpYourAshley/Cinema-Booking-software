@@ -17,10 +17,11 @@ namespace Cinema_Booking_Application
         public Form1()
         {
             InitializeComponent(); ///This is stating what items there are going to be
-            Genre.Items.Add("Action");
-            Genre.Items.Add("Drama");
-            Genre.Items.Add("Comedy");
-            Genre.Items.Add("Horror");
+            foreach(var e in Enum.GetValues(typeof(FilmTypes)))
+            {
+                Genre.Items.Add(e.ToString());
+            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -32,42 +33,42 @@ namespace Cinema_Booking_Application
 
         private void Genre_SelectedIndexChanged(object sender, EventArgs e)///This class lists all of the movies in their sections
         {
-            if (Genre.Text == "Action")
-            {
-                FilmBox.Items.Clear();
-                FilmBox.Items.Add("Black Panther");
-                FilmBox.Items.Add("Upgrade");
-                FilmBox.Items.Add("Avengers: Infinity War");
-                FilmBox.Items.Add("Ready Player One");
-                    
-                    
-            } 
-            if (Genre.Text == "Drama")
-            {
-                FilmBox.Items.Clear();
-                FilmBox.Items.Add("A Star Is Born");
-                FilmBox.Items.Add("Searching");
-                FilmBox.Items.Add("First Man");
-                FilmBox.Items.Add("Leave No Trace");
 
-            }
-            if (Genre.Text == "Comedy")
-            {
-                FilmBox.Items.Clear();
-                FilmBox.Items.Add("Blockers");
-                FilmBox.Items.Add("Night School");
-                FilmBox.Items.Add("Holmes & Watson");
-                FilmBox.Items.Add("Game Night");
-            }
-            if (Genre.Text == "Horror")
-            {
-                FilmBox.Items.Clear();
-                FilmBox.Items.Add("Halloween");
-                FilmBox.Items.Add("Annihilation");
-                FilmBox.Items.Add("The Nun");
-                FilmBox.Items.Add("Insidious: The Last Key");
-            }
+            FilmTypes type = (FilmTypes) Enum.Parse(typeof(FilmTypes), Genre.Text);
 
+            switch (type)
+            {
+                case FilmTypes.Action:
+                    FilmBox.Items.Clear();
+                    FilmBox.Items.Add("Black Panther");
+                    FilmBox.Items.Add("Upgrade");
+                    FilmBox.Items.Add("Avengers: Infinity War");
+                    FilmBox.Items.Add("Ready Player One");
+                    break;
+                case FilmTypes.Drama:
+                    FilmBox.Items.Clear();
+                    FilmBox.Items.Add("A Star Is Born");
+                    FilmBox.Items.Add("Searching");
+                    FilmBox.Items.Add("First Man");
+                    FilmBox.Items.Add("Leave No Trace");
+                    break;
+                case FilmTypes.Comedy:
+                    FilmBox.Items.Clear();
+                    FilmBox.Items.Add("Blockers");
+                    FilmBox.Items.Add("Night School");
+                    FilmBox.Items.Add("Holmes & Watson");
+                    FilmBox.Items.Add("Game Night");
+                    break;
+                case FilmTypes.Horror:
+                    FilmBox.Items.Clear();
+                    FilmBox.Items.Add("Halloween");
+                    FilmBox.Items.Add("Annihilation");
+                    FilmBox.Items.Add("The Nun");
+                    FilmBox.Items.Add("Insidious: The Last Key");
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e) ///This is what is going to be outputted into the output file

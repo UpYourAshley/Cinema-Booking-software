@@ -19,4 +19,6 @@ namespace Cinema_Booking_Application
             Application.Run(new Form1());
         }
     }
+
+    public enum FilmTypes { Action, Drama, Comedy, Horror };
 }

@@ -6,3 +6,12 @@
 \\li-studenthd-01\student home drives$\active\30055148\my documents\visual studio 2015\Projects\Cinema Booking Application\Cinema Booking Application\bin\Debug\Cinema Booking Application.pdb
 \\li-studenthd-01\student home drives$\active\30055148\my documents\visual studio 2015\Projects\Cinema Booking Application\Cinema Booking Application\obj\Debug\Cinema Booking Application.exe
 \\li-studenthd-01\student home drives$\active\30055148\my documents\visual studio 2015\Projects\Cinema Booking Application\Cinema Booking Application\obj\Debug\Cinema Booking Application.pdb
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\bin\Debug\Cinema Booking Application.exe.config
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\bin\Debug\Cinema Booking Application.exe
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\bin\Debug\Cinema Booking Application.pdb
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema Booking Application.csprojAssemblyReference.cache
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema_Booking_Application.Form1.resources
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema_Booking_Application.Properties.Resources.resources
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema Booking Application.csproj.GenerateResource.cache
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema Booking Application.exe
+C:\Users\ashle\Downloads\Cinema-Booking-software-master\Cinema-Booking-software-master\Cinema Booking Application\obj\Debug\Cinema Booking Application.pdb
